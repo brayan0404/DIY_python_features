@@ -13,5 +13,5 @@ def lefPad(string: str, ch: str, size: int) -> str | int:
 assert lefPad("B", "*", 3) == "**B" 
 assert lefPad("B", "**", 3) == -1
 assert lefPad("B", "*", 1) == "B"
-
 assert lefPad(1, "*", 1) == -1
+
